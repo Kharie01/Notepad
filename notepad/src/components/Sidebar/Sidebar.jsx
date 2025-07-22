@@ -11,7 +11,7 @@ import Sicon from '../../assets/settings.svg'
 
 function Sidebar() {
   return (
-    <div className='Container'>
+    <div className='Container' transition-style="in:wipe:right">
         <div className="leftbtn">
             <div className="profile">
                 <img id='profile1' src={Profile} alt="" />
